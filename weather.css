@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    background:linear-gradient(135deg,blue,red);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    width: 90%;
+    max-width: 470px;
+    background:linear-gradient(135deg,#00feba,#1c00d0);
+    color: #fff;
+    margin: px auto 0;
+    border-radius: 20px;
+    padding: 40px 35px;
+    text-align: center;
+    box-shadow: 10px 10px 10px white;
+}
+.icon{
+     width: 100%;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+}
+img{
+    height: 3vh;
+    
+}
+input{
+    border: 0;
+    outline: 0;
+    background: #ebfffc;
+    color: #555;
+    padding: 10px 25px;
+    height: 60px;
+    border-radius: 30px;
+    flex: 1;
+    margin-right: 16px;
+    font-size: 20px;  
+}
+.icon button{
+    border: 0;
+    outline: 0;
+    background:#ebfffc;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+}
+.weather img{
+    width: 15vh;
+    height: 15vh;
+}
+.image2{
+    width: 170px;
+    margin-top: 30px;
+}
+.weather h1{
+    font-size: 80px;
+    font-weight: 500;
+}
+.weather h2{
+    font-size: 45px;
+    font-weight: 400px;
+    margin-top: -10px;
+}
+.details{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    margin-top: 50px;
+
+}
+#tt{
+    color: beige;
+    padding-right: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.btns{
+    margin: 20px;
+    margin-left: 100px;
+}
+#btn{
+    height: 4vh;
+    width: 5vw;
+    font-weight: 600;
+    border-radius: 4px;
+    background: linear-gradient(120deg,orange,red);
+}
+#btn1{
+    height: 4vh;
+    width: 5vw;
+    background: linear-gradient(120deg,orange,red);
+    border-radius: 4px;
+    font-weight: 600;
+}
+#btn2{
+    height: 4vh;
+    width: 5vw;
+    font-weight: 600;
+    background: linear-gradient(120deg,orange,red);
+    border-radius: 4px;
+}
